@@ -1,0 +1,23 @@
+{
+  "topics": {
+    "gamingPCEnableDeskGaming": {
+      "topicName": "gaming-pc-desk-gaming",
+      "enabled": true,
+      "monitorConfigPath": "./ConfigureMonitors/GamingPC/desk-gaming.cfg",
+      "audioConfigPath": "./ConfigureAudio/GamingPC/desk-gaming.spr"
+    },"gamingPCEnableProjectorGaming": {
+      "topicName": "gaming-pc-projector-gaming",
+      "enabled": true,
+      "monitorConfigPath": "./ConfigureMonitors/GamingPC/projector-gaming.cfg",
+      "audioConfigPath": "./ConfigureAudio/GamingPC/projector-gaming.spr"
+    },
+    "gamingPCShutdown": {
+      "topicName": "gaming-pc-shutdown",
+      "enabled": true
+    },
+    "recordingPCShutdown": {
+      "topicName": "recording-pc-shutdown",
+      "enabled": false
+    }
+  }
+}
