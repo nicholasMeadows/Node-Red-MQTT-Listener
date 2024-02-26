@@ -4,3 +4,5 @@ const Topic = {
     GamingPCShutdown: "gaming-pc-shutdown",
     RecordingPCShutdown: "recording-pc-shutdown"
 }
+
+module.exports = Topic;

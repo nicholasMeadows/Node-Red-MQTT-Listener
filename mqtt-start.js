@@ -2,6 +2,7 @@ const mqtt = require("mqtt");
 var child_process = require('child_process');
 const path = require("path");
 const config = require('./config.json');
+const Topic = require('./topicsEnum')
 
 const client = mqtt.connect("mqtt://192.168.70.181:1883");
 client.on("connect", () => {
